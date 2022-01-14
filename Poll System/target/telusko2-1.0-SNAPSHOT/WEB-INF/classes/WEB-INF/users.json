@@ -1,0 +1,26 @@
+[
+  {
+    "userid":"MANAGERID",
+    "fullname":"John Doe",
+    "email": "",
+    "password":"2f5daf52c54ac06a7e86b6d5659828f3"
+  },
+  {
+    "userid":"AppleMast1",
+    "fullname":"Marie Kondo",
+    "email": "",
+    "password":"2f5daf52c54ac06a7e86b6d5659828f3"
+  },
+  {
+    "userid":"Pear1Mast1",
+    "fullname":"Jennifer Lynn",
+    "email": "",
+    "password":"2f5daf52c54ac06a7e86b6d5659828f3"
+  },
+  {
+    "userid":"Cucumber12",
+    "fullname":"Richard Ling",
+    "email": "",
+    "password":"2f5daf52c54ac06a7e86b6d5659828f3"
+  }
+]

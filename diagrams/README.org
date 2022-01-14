@@ -1,0 +1,50 @@
+* Team
+
+| Name                    |       ID |
+|-------------------------+----------|
+| Alexander De Laurentiis | 40050385 |
+| Anoop Pukulakatt        | 40130695 |
+| Vu Dang Khoa Trinh      | 40012738 |
+
+* Instructions to setup the DB
+For this website the data is stored with MariaDB, all syntax related to the data is compatible with any MYSQL database as well though.
+** Through a CLI
+Since the steps to dowload the db may differ based on OS that will be left to the user to do.
+- Once installed download the sql scripts
+- to execute a command use ~\.~
+- so to execute a given script: ~\. <path to script file>~
+- only needs to execute the ~create_data.sql~ script if you plan to manually enter other stuff
+- run the ~insert_dummy_data.sql~ script if you wish to test the features immediately.
+
+* Setting up Tomcat + project
+Version: tomcat9
+if using intellij just follow the class instructions
+if not then:
+1. download tomcat9
+2. start a server
+   * test that its running by going to http://localhost:8080
+3. compile the project using ~mvn package~ while in the project base dir
+4. go to the ~target/~ folder in the root of the project folder
+   - copy the ~*.war~ file there into the tomcat webapps folder
+   - default linux path to it is ~/usr/share/tomcat9/webapps/~
+5. navigate to http://localhost:8080/<projectname>
+   
+* Using PollMaster
+** user
+- Once at the main screen click the ~Participant~ button.
+- Type in the box the desired poll Id of the poll in which you wish to vote on.
+- select that poll
+- select your choice of vote and type your UserId
+- submit the vote
+** Authenticated User
+- Once at main screen click the ~Poll Manager~ button
+- Log in with your UserID and the universal password ~SOEN387~
+- there you will see all the polls owned by the logged in user
+- you may
+  - create a Poll
+  - modify a Poll
+  - Delete a Poll
+  - Release a Poll
+  - Unrelease a Poll
+  - Run a Poll
+  - Close a Poll

@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage{pgf-umlcd}
+\usepackage{pgf-umlsd}
+\usepackage{geometry}
+\geometry{
+  a2paper,
+  total={680mm,1028mm},
+  left=6cm,
+  top=4cm,
+}
+
+\begin{document}
+\section*{Sequence  Diagrams}
+Alexander De Laurentiis (40050385)\\
+Anoop Pukulakatt (40130695)\\
+Vu Dang Khoa Trinh (40012738)
+\subsection*{Poll Download Scenario}
+  \begin{sequencediagram}
+    \newthread{user}{User}
+    \newinst[1]{main}{MainServlet}
+    \newinst{download}{DownloadSerlet}
+    \newinst{pm}{PollManager}
+    \newinst{dataInterface}{DataConn}
+    \newinst{conn}{Conn}
+    \newinst[2]{db}{MariaDB DB}
+    
+    \begin{call}{user}{Submits Form}{main}{fileDataStream}
+      \begin{call}{main}{DowloadFile}{download}{fileDataStream}
+        \begin{call}{download}{getPoll}{pm}{pollData}
+          \begin{call}{pm}{getPoll()}{dataInterface}{pollData}
+            \begin{call}{dataInterface}{getPoll()}{conn}{pollData}
+              \begin{call}{conn}{Select pollData ...}{db}{pollData}
+              \end{call}
+            \end{call}
+          \end{call}
+        \end{call}
+      \end{call}
+    \end{call}
+  \end{sequencediagram}
+  
+  \subsection*{Poll Creation}
+  \begin{sequencediagram}
+    \newthread{user}{User}
+    \newinst[1]{main}{MainServlet}
+    \newinst[1]{login}{LoginServlet}
+    \newinst[2]{pm}{PollManager}
+    \newinst{dataInterface}{DataConn}
+    \newinst[2]{conn}{Conn}
+    \newinst[2]{db}{MariaDB DB}
+
+    \begin{call}{user}{Login}{login}{userSession}
+      \begin{call}{login}{authenticate:user}{pm}{success:bool}
+      \end{call}
+      \begin{call}{login}{GenerateUserJson}{login}{authenticated}
+      \end{call}
+    \end{call}
+    \begin{call}{user}{CreatePoll}{main}{Success}
+      \begin{call}{main}{createPoll}{pm}{sucess}
+        \begin{call}{pm}{insertData}{dataInterface}{inserted}
+          \begin{call}{dataInterface}{insert info to Polls}{conn}{true}
+            \begin{call}{conn}{insertData}{db}{true}              
+            \end{call}            
+          \end{call}          
+        \end{call}        
+      \end{call}
+    \end{call}
+  \end{sequencediagram}
+  
+\end{document}

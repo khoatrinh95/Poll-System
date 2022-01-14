@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="telusko2:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bad1086e-0912-4f16-87f3-dddbd9eac19f" name="Changes" comment="added mailer - working now">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/telusko2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/telusko2_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mailer/MailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mailer/Mailer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Transform/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Transform/Transformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserManagement/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/business/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/business/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/Conn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DataConn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/WrongStateException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/business/Ballot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/business/Choice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/business/Poll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/business/PollManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/business/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/business/Vote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/presentation/PollManagerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/presentation/StartingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/presentation/StateManagerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/presentation/VoteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/presentation/toDelete/HoldingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/presentation/toDelete/VotedServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/Exceptions/WrongStateException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/business/Ballot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/business/Choice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/business/Poll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/business/PollManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/business/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/business/Vote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/presentation/PollManagerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/presentation/StartingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/presentation/StateManagerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/presentation/VoteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/presentation/toDelete/HoldingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/classes/presentation/toDelete/VotedServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/create_poll.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/debug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/poll.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/poll_created.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/poll_released.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/poll_running.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/poll_voting.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/update_poll.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/telusko2-1.0-SNAPSHOT/voted.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/telusko2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/telusko2.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="A3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="213QznK0GQR656mEyjchPBHdQIR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Mailer" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db" />
+      <recent name="$PROJECT_DIR$/src/main/java/db" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.53">
+    <configuration name="testDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="business.testDB" />
+      <module name="telusko2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.53" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.53" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/telusko2_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="telusko2:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/telusko2_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="cac992ea-5623-4c42-9421-c9c6d19ae793" />
+        <option name="HTTP_PORT" value="8088" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55087" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="telusko2:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.testDB" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.53" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testDB" />
+        <item itemvalue="Application.testDB" />
+        <item itemvalue="Application.testDB" />
+        <item itemvalue="Application.testDB" />
+        <item itemvalue="Application.testDB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bad1086e-0912-4f16-87f3-dddbd9eac19f" name="Changes" comment="" />
+      <created>1637167560689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637167560689</updated>
+      <workItem from="1637167565666" duration="19133000" />
+      <workItem from="1637343701473" duration="1413000" />
+      <workItem from="1637350239176" duration="1934000" />
+      <workItem from="1637363181727" duration="6885000" />
+      <workItem from="1638496639838" duration="635000" />
+      <workItem from="1638588614214" duration="31236000" />
+      <workItem from="1638718061194" duration="8000" />
+      <workItem from="1638904428876" duration="4511000" />
+      <workItem from="1639095517686" duration="136000" />
+      <workItem from="1639174006739" duration="2012000" />
+      <workItem from="1639181274220" duration="4581000" />
+      <workItem from="1639186998816" duration="1504000" />
+      <workItem from="1639188684252" duration="24000" />
+      <workItem from="1639188734591" duration="1020000" />
+    </task>
+    <task id="LOCAL-00001" summary="done - everything is working. Except Download">
+      <created>1637222494703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637222494703</updated>
+    </task>
+    <task id="LOCAL-00002" summary="link completed download option to anonymous voters - Everything is done">
+      <created>1637352143254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637352143254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed minor FE styling">
+      <created>1637459258289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637459258289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove import Status inside DataConn.java">
+      <created>1637461815920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637461815920</updated>
+    </task>
+    <task id="LOCAL-00005" summary="A3 branch">
+      <created>1638592461043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638592461043</updated>
+    </task>
+    <task id="LOCAL-00006" summary="gitignore target folder">
+      <created>1638597615740</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638597615740</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added DataConn methods for Users Table">
+      <created>1638600070234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638600070234</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added DataConn methods for Users Table">
+      <created>1638601429954</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638601429954</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial impl of UserManagement">
+      <created>1638601475930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638601475930</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Sign up done">
+      <created>1638673979396</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638673979396</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Change Password + Forgot Password done">
+      <created>1638681641305</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638681641305</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Change Password + Forgot Password done">
+      <created>1638681668376</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638681668376</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update LogIn to only allow sign in if account has been validated">
+      <created>1638681947376</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638681947376</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added Transform View pattern to obtain message to email">
+      <created>1638908369964</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1638908369964</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added mailer">
+      <created>1639175166342</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639175166342</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added mailer - working now">
+      <created>1639188499434</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639188499434</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Khoa" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done - everything is working. Except Download" />
+    <MESSAGE value="link completed download option to anonymous voters - Everything is done" />
+    <MESSAGE value="fixed minor FE styling" />
+    <MESSAGE value="remove import Status inside DataConn.java" />
+    <MESSAGE value="A3 branch" />
+    <MESSAGE value="gitignore target folder" />
+    <MESSAGE value="added DataConn methods for Users Table" />
+    <MESSAGE value="initial impl of UserManagement" />
+    <MESSAGE value="Sign up done" />
+    <MESSAGE value="Change Password + Forgot Password done" />
+    <MESSAGE value="update LogIn to only allow sign in if account has been validated" />
+    <MESSAGE value="added Transform View pattern to obtain message to email" />
+    <MESSAGE value="added mailer" />
+    <MESSAGE value="added mailer - working now" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mailer - working now" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/presentation/VoteServlet.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Transform/Transformer.java</url>
+          <line>7</line>
+          <properties class="Transform.Transformer" method="transform">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,216 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:telusko2:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 58, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com.example:telusko2 >------------------------
+[INFO] Building telusko2 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ telusko2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/alek/School/Soen387/Assignments/repo/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ telusko2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to /home/alek/School/Soen387/Assignments/repo/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StartingServlet.java:[20,32] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StartingServlet.java:[33,34] method getPollStatus in class business.VotingUser cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[18,32] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[36,24] method vote in class business.VotingUser cannot be applied to given types;
+  required: java.lang.String,java.lang.String,java.lang.String
+  found:    java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[42,32] method runPoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[45,32] method unreleasePoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[48,32] method releasePoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[51,32] method clearPoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[54,32] method clearResults in class business.PollManager cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[55,32] cannot find symbol
+  symbol:   method setPollStatus(business.Status)
+  location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[58,32] method clearPoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[61,32] method clearResults in class business.PollManager cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[62,32] cannot find symbol
+  symbol:   method setPollStatus(business.Status)
+  location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[65,67] cannot find symbol
+  symbol:   method returnResults()
+  location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[71,71] cannot find symbol
+  symbol:   method returnResults()
+  location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[77,32] method closePoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[82,32] method downloadPollDetails in class business.VotingUser cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[36,27] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[37,36] method getPollStatus in class business.VotingUser cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[109,28] non-static method createPoll(java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>) cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[113,32] method updatePoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String,java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+  found:    java.lang.String,java.lang.String,<nulltype>,<nulltype>,boolean
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[117,32] method updatePoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String,java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+  found:    java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[121,32] method updatePoll in class business.PollManager cannot be applied to given types;
+  required: java.lang.String,java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+  found:    java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/VoteServlet.java:[35,34] method getPollStatus in class business.VotingUser cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/VoteServlet.java:[36,32] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/DownloadResultsServlet.java:[31,32] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/DownloadResultsServlet.java:[32,55] cannot find symbol
+  symbol:   method getBallot()
+  location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/DownloadResultsServlet.java:[33,61] cannot find symbol
+  symbol:   method getReleasedTime()
+  location: class business.PollManager
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.968 s
+[INFO] Finished at: 2021-11-11T17:17:59-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project telusko2: Compilation failure: Compilation failure: 
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StartingServlet.java:[20,32] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StartingServlet.java:[33,34] method getPollStatus in class business.VotingUser cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[18,32] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[36,24] method vote in class business.VotingUser cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String,java.lang.String
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[42,32] method runPoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[45,32] method unreleasePoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[48,32] method releasePoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[51,32] method clearPoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[54,32] method clearResults in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[55,32] cannot find symbol
+[ERROR]   symbol:   method setPollStatus(business.Status)
+[ERROR]   location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[58,32] method clearPoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[61,32] method clearResults in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[62,32] cannot find symbol
+[ERROR]   symbol:   method setPollStatus(business.Status)
+[ERROR]   location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[65,67] cannot find symbol
+[ERROR]   symbol:   method returnResults()
+[ERROR]   location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[71,71] cannot find symbol
+[ERROR]   symbol:   method returnResults()
+[ERROR]   location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[77,32] method closePoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/StateManagerServlet.java:[82,32] method downloadPollDetails in class business.VotingUser cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[36,27] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[37,36] method getPollStatus in class business.VotingUser cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[109,28] non-static method createPoll(java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>) cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[113,32] method updatePoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+[ERROR]   found:    java.lang.String,java.lang.String,<nulltype>,<nulltype>,boolean
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[117,32] method updatePoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+[ERROR]   found:    java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/PollManagerServlet.java:[121,32] method updatePoll in class business.PollManager cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+[ERROR]   found:    java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.String>,boolean
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/VoteServlet.java:[35,34] method getPollStatus in class business.VotingUser cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found:    no arguments
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/VoteServlet.java:[36,32] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/DownloadResultsServlet.java:[31,32] non-static method getPoll() cannot be referenced from a static context
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/DownloadResultsServlet.java:[32,55] cannot find symbol
+[ERROR]   symbol:   method getBallot()
+[ERROR]   location: class business.PollManager
+[ERROR] /home/alek/School/Soen387/Assignments/repo/src/main/java/presentation/DownloadResultsServlet.java:[33,61] cannot find symbol
+[ERROR]   symbol:   method getReleasedTime()
+[ERROR]   location: class business.PollManager
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
